@@ -1,17 +1,19 @@
+
 # ERRORBASE
 
-The Self-Hosted Firebase Alternative | Complete Backend Platform
+### The Self-Hosted Firebase Alternative | Complete Backend Platform
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Production_Ready-00C853?style=for-the-badge&logo=checkmark">
-  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20Mac-0078D4?style=for-the-badge&logo=windows">
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20TypeScript-339933?style=for-the-badge&logo=nodedotjs">
-  <img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql">
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Tailwind-61DAFB?style=for-the-badge&logo=react">
-  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker">
+  <img src="https://img.shields.io/badge/Status-Production_Ready-00C853?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20Mac-0078D4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20TypeScript-339933?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Tailwind-61DAFB?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge">
 
-https://img.shields.io/badge/Telegram-@ERROR0101risback-26A5E4?style=for-the-badge&logo=telegram
-https://img.shields.io/badge/GitHub-ERROR0101r-181717?style=for-the-badge&logo=github
+  [![Telegram](https://img.shields.io/badge/Telegram-@ERROR0101risback-26A5E4?style=for-the-badge)](https://t.me/ERROR0101risback)
+  [![Instagram](https://img.shields.io/badge/Instagram-@fahad0101r-E4405F?style=for-the-badge)](https://instagram.com/fahad0101r)
+  [![GitHub](https://img.shields.io/badge/GitHub-ERROR0101r-181717?style=for-the-badge)](https://github.com/ERROR0101r)
 
   <p><strong>Developer: @ERROR0101risback</strong></p>
   <p><em>Version: 1.0.0 | Production Ready</em></p>
@@ -19,86 +21,125 @@ https://img.shields.io/badge/GitHub-ERROR0101r-181717?style=for-the-badge&logo=g
 
 ---
 
-📋 TABLE OF CONTENTS
+## 📋 TABLE OF CONTENTS
 
-· Why ErrorBase?
-· Features
-· Quick Setup
-· Tech Stack
-· Project Structure
-· Configuration Guide
-· Docker Deployment
-· API Endpoints
-· Dashboard Guide
-· Security Features
-· Row Level Security
-· Environment Variables
-· Commands List
-· Step by Step Tutorial
-· Report Bugs
-· Developer Contact
-· License
-
----
-
-WHY ERRORBASE?
-
-```
-⚠️ THE PROBLEM WITH FIREBASE / SUPA BASE CLOUD ⚠️
-
-When you use cloud backend services:
-• Your data lives on SOMEONE ELSE'S servers
-• You pay for EVERY API request and EVERY GB of storage
-• Your app can be rate-limited or banned without warning
-• Your user data can be mined for AI training
-• Vendor lock-in makes migration nearly impossible
-• You have ZERO control over security patches
-• Offline or air-gapped deployment is IMPOSSIBLE
-
-✅ HOW ERRORBASE SOLVES THIS
-
-With ErrorBase (Self-Hosted):
-✓ Your data stays on YOUR infrastructure
-✓ Pay ZERO dollars for API calls and storage
-✓ Complete control over rate limits and quotas
-✓ No third-party access to user data ever
-✓ Full PostgreSQL access and backups
-✓ Works offline, air-gapped, or on-premise
-✓ You control security updates
-✓ No vendor lock-in - it's just PostgreSQL
-✓ Deploy on any VPS, dedicated server, or Raspberry Pi
-```
-
-Feature Firebase Supabase Cloud ErrorBase
-Self-Hosted ❌ ⚠️ Limited ✅ Free
-Data Ownership ❌ ❌ ✅ 100% Yours
-Cost for 100K requests $0.60 $0.25 $0.00
-Cost for 100GB storage $15.00 $20.00 $0.00
-Vendor Lock-in ❌ Yes ⚠️ Partial ✅ No
-Offline Capable ❌ No ⚠️ Limited ✅ Yes
-Row Level Security ❌ No ✅ Yes ✅ Yes
-Custom SQL ❌ No ✅ Yes ✅ Yes
-Local Development ⚠️ Emulator ⚠️ Limited ✅ Full
-GDPR Compliance ⚠️ Complex ⚠️ Complex ✅ Simple
+- [Why ErrorBase?](#why-errorbase)
+- [Features](#features)
+- [Quick Setup](#quick-setup)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Configuration Guide](#configuration-guide)
+- [Docker Deployment](#docker-deployment)
+- [API Endpoints](#api-endpoints)
+- [Dashboard Guide](#dashboard-guide)
+- [Security Features](#security-features)
+- [Environment Variables](#environment-variables)
+- [Commands List](#commands-list)
+- [Step by Step Tutorial](#step-by-step-tutorial)
+- [Report Bugs](#report-bugs)
+- [Developer Contact](#developer-contact)
+- [License](#license)
 
 ---
 
-FEATURES
+## WHY ERRORBASE?
 
-Category Features
-🗄️ Database PostgreSQL connection pool, Schema reflection, Auto-migrations, Row-Level Security (RLS), Foreign key relationships
-📡 Auto-Generated REST API Dynamic endpoints for any table, Filtering (eq, ne, gt, lt, like, in), Pagination (limit/offset), Field selection, Stored procedure calls
-🔐 Authentication System Email/Password signup, JWT with refresh tokens, Password reset flow, Rate limiting (5 attempts/minute), HTTP-only cookies, bcrypt hashing (10+ rounds)
-⚡ Realtime Subscriptions WebSocket connections, Presence channels, Broadcast messages, Postgres CDC (INSERT/UPDATE/DELETE)
-📁 File Storage S3-compatible API, Bucket management, File upload/download, MIME type validation, 50MB default limit, Delete operations
-🖥️ Admin Dashboard Table browser with CRUD, SQL editor with syntax highlighting, User management, API logs and metrics, Storage browser, Dark/Light theme toggle
-🛡️ Security Helmet.js security headers, CORS protection, Input sanitization, CSRF protection, Rate limiting per IP, Request/response logging
+**The Problem with Firebase / Supabase Cloud:**
+
+- Your data lives on someone else's servers
+- You pay for every API request and every GB of storage
+- Your app can be rate-limited or banned without warning
+- Your user data can be mined for AI training
+- Vendor lock-in makes migration nearly impossible
+- Offline or air-gapped deployment is impossible
+
+**How ErrorBase Solves This:**
+
+- Your data stays on YOUR infrastructure
+- Pay ZERO dollars for API calls and storage
+- Complete control over rate limits and quotas
+- No third-party access to user data ever
+- Full PostgreSQL access and backups
+- Works offline, air-gapped, or on-premise
+
+**Comparison:**
+
+| Feature | Firebase | Supabase Cloud | ErrorBase |
+|---------|----------|----------------|-----------|
+| Self-Hosted | No | Limited | Yes Free |
+| Data Ownership | No | No | Yes 100% |
+| Cost for 100K requests | $0.60 | $0.25 | $0.00 |
+| Vendor Lock-in | Yes | Partial | No |
+| Offline Capable | No | Limited | Yes |
+| Row Level Security | No | Yes | Yes |
 
 ---
 
-QUICK SETUP
+## FEATURES
 
-One Command Setup:
+**🗄️ Database Layer**
+- PostgreSQL connection pool manager
+- Schema reflection for tables, columns, relationships
+- Auto-migration system for initial setup
+- Row-Level Security (RLS) simulation with middleware
+
+**📡 Auto-Generated REST API**
+- GET /api/rest/v1/{table} - List records with filters
+- POST /api/rest/v1/{table} - Insert record
+- PATCH /api/rest/v1/{table} - Update record(s)
+- DELETE /api/rest/v1/{table} - Delete record(s)
+- GET /api/rest/v1/rpc/{function} - Call stored procedures
+- Query params: select, order, limit, offset
+- Filters: eq, ne, gt, lt, gte, lte, like, ilike, in, is
+
+**🔐 Authentication System**
+- POST /auth/v1/signup - Email/password registration
+- POST /auth/v1/signin - Login with JWT issuance
+- GET /auth/v1/user - Get current user profile
+- POST /auth/v1/refresh - Token refresh endpoint
+- POST /auth/v1/logout - Invalidate tokens
+- Password reset flow with email
+- Rate limiting: 5 attempts per minute per IP
+
+**⚡ Realtime Subscriptions**
+- WebSocket endpoint: /realtime/v1/websocket
+- Channel types: presence, broadcast, postgres_changes
+- Listen to INSERT/UPDATE/DELETE on specific tables
+- Broadcast messages between connected clients
+- Presence tracking for online users
+
+**📁 File Storage**
+- POST /storage/v1/bucket - Create bucket
+- GET /storage/v1/bucket/{name}/list - List objects
+- PUT /storage/v1/bucket/{name}/upload - Upload file
+- GET /storage/v1/bucket/{name}/download/{path} - Download
+- DELETE /storage/v1/bucket/{name}/delete/{path} - Delete
+- File size limit: 50MB default
+- MIME type validation for images, PDFs, videos
+
+**🖥️ Admin Dashboard**
+- Project overview with API keys and URL
+- Table browser with CRUD operations
+- SQL editor with syntax highlighting
+- Auth users management
+- API logs and metrics
+- Storage browser
+- Dark/light theme toggle
+
+**🛡️ Security Features**
+- All passwords hashed with bcrypt (10+ rounds)
+- JWT stored in HTTP-only cookies
+- CSRF protection on state-changing endpoints
+- Helmet.js for security headers
+- Input sanitization for all SQL queries
+- CORS properly configured
+- Rate limiting per user/IP
+
+---
+
+## QUICK SETUP
+
+**One Command Setup:**
 
 ```bash
 git clone https://github.com/ERROR0101r/errorbase.git
@@ -119,32 +160,32 @@ docker-compose logs -f
 
 # Stop everything
 docker-compose down
+
+# Stop and delete volumes (reset database)
+docker-compose down -v
 ```
 
-Services Running:
+Access Services:
 
-Service URL Description
-Dashboard http://localhost:5173 React admin interface
-API Server http://localhost:3000 REST + WebSocket
-PostgreSQL localhost:5432 Database
-pgAdmin http://localhost:5050 Database management
+```
+Dashboard:    http://localhost:5173
+API Server:   http://localhost:3000
+PostgreSQL:   localhost:5432
+pgAdmin:      http://localhost:5050
+```
 
 Manual Setup (Without Docker):
 
-Backend:
-
 ```bash
+# Backend
 cd server
 cp .env.example .env
 # Edit .env with your database credentials
 npm install
 npm run migrate
 npm run dev
-```
 
-Dashboard:
-
-```bash
+# Dashboard (open new terminal)
 cd dashboard
 npm install
 npm run dev
@@ -154,40 +195,40 @@ npm run dev
 
 TECH STACK
 
-```
-ERRORBASE TECH STACK
-│
-├── Backend Server
-│   ├── Runtime: Node.js (v20+)
-│   ├── Language: TypeScript (v5+)
-│   ├── Framework: Express (v4)
-│   ├── Database Driver: pg (v8+)
-│   ├── Authentication: jsonwebtoken, bcrypt
-│   ├── Realtime: Socket.io (v4)
-│   ├── File Upload: Multer
-│   ├── Logging: Winston
-│   └── Security: Helmet, cors, express-rate-limit
-│
-├── Frontend Dashboard
-│   ├── Framework: React (v18)
-│   ├── Language: TypeScript
-│   ├── Styling: TailwindCSS
-│   ├── Components: Shadcn/ui
-│   ├── State: TanStack Query
-│   ├── HTTP Client: Axios
-│   ├── Build Tool: Vite
-│   └── Code Editor: Monaco Editor
-│
-├── Database
-│   ├── Primary: PostgreSQL 15
-│   ├── Management: pgAdmin 4
-│   └── Migration: Custom migration system
-│
-└── Infrastructure
-    ├── Container: Docker + Docker Compose
-    ├── Proxy: Nginx (production)
-    └── SSL: Let's Encrypt (optional)
-```
+Backend Server
+
+· Runtime: Node.js (v20+)
+· Language: TypeScript (v5+)
+· Framework: Express (v4)
+· Database Driver: pg (v8+)
+· Authentication: jsonwebtoken, bcrypt
+· Realtime: Socket.io (v4)
+· File Upload: Multer
+· Logging: Winston
+· Security: Helmet, cors, express-rate-limit
+
+Frontend Dashboard
+
+· Framework: React (v18)
+· Language: TypeScript
+· Styling: TailwindCSS
+· Components: Shadcn/ui
+· State: TanStack Query
+· HTTP Client: Axios
+· Build Tool: Vite
+· Code Editor: Monaco Editor
+
+Database
+
+· Primary: PostgreSQL 15
+· Management: pgAdmin 4
+· Migration: Custom migration system
+
+Infrastructure
+
+· Container: Docker + Docker Compose
+· Proxy: Nginx (production)
+· SSL: Let's Encrypt (optional)
 
 ---
 
@@ -196,91 +237,78 @@ PROJECT STRUCTURE
 ```
 errorbase/
 │
-├── server/                              # Backend API Server
+├── server/
 │   ├── src/
 │   │   ├── config/
-│   │   │   ├── database.ts             # PostgreSQL connection pool
-│   │   │   ├── jwt.ts                  # JWT configuration
-│   │   │   └── env.ts                  # Environment variables
-│   │   │
+│   │   │   ├── database.ts
+│   │   │   ├── jwt.ts
+│   │   │   └── env.ts
 │   │   ├── controllers/
-│   │   │   ├── auth.controller.ts      # Signup, login, refresh
-│   │   │   ├── rest.controller.ts      # Dynamic table endpoints
-│   │   │   ├── storage.controller.ts   # File upload/download
-│   │   │   └── realtime.controller.ts  # WebSocket handlers
-│   │   │
+│   │   │   ├── auth.controller.ts
+│   │   │   ├── rest.controller.ts
+│   │   │   ├── storage.controller.ts
+│   │   │   └── realtime.controller.ts
 │   │   ├── middleware/
-│   │   │   ├── auth.middleware.ts      # JWT verification
-│   │   │   ├── rls.middleware.ts       # Row Level Security
-│   │   │   ├── rate-limit.ts           # Rate limiting
-│   │   │   └── validation.ts           # Input validation
-│   │   │
+│   │   │   ├── auth.middleware.ts
+│   │   │   ├── rls.middleware.ts
+│   │   │   ├── rate-limit.ts
+│   │   │   └── validation.ts
 │   │   ├── models/
-│   │   │   ├── user.model.ts           # User schema
-│   │   │   └── session.model.ts        # Session management
-│   │   │
+│   │   │   ├── user.model.ts
+│   │   │   └── session.model.ts
 │   │   ├── routes/
-│   │   │   ├── auth.routes.ts          # /auth/v1/*
-│   │   │   ├── rest.routes.ts          # /api/rest/v1/*
-│   │   │   ├── storage.routes.ts       # /storage/v1/*
-│   │   │   └── realtime.routes.ts      # WebSocket endpoint
-│   │   │
+│   │   │   ├── auth.routes.ts
+│   │   │   ├── rest.routes.ts
+│   │   │   ├── storage.routes.ts
+│   │   │   └── realtime.routes.ts
 │   │   ├── services/
-│   │   │   ├── db.service.ts           # Schema reflection
-│   │   │   ├── auth.service.ts         # Authentication logic
-│   │   │   ├── storage.service.ts      # File operations
-│   │   │   └── realtime.service.ts     # WebSocket pub/sub
-│   │   │
+│   │   │   ├── db.service.ts
+│   │   │   ├── auth.service.ts
+│   │   │   ├── storage.service.ts
+│   │   │   └── realtime.service.ts
 │   │   ├── utils/
-│   │   │   ├── logger.ts               # Winston logging
-│   │   │   └── helpers.ts              # Utility functions
-│   │   │
-│   │   └── index.ts                    # Application entry point
-│   │
+│   │   │   ├── logger.ts
+│   │   │   └── helpers.ts
+│   │   └── index.ts
 │   ├── package.json
 │   ├── tsconfig.json
 │   └── .env.example
 │
-├── dashboard/                           # Frontend Admin Dashboard
+├── dashboard/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── TableBrowser.tsx        # CRUD table interface
-│   │   │   ├── SQLEditor.tsx           # Monaco SQL editor
-│   │   │   ├── StorageBrowser.tsx      # File manager
-│   │   │   ├── UserManager.tsx         # Auth user management
-│   │   │   ├── LogViewer.tsx           # API logs viewer
-│   │   │   └── Layout.tsx              # Sidebar + header
-│   │   │
+│   │   │   ├── TableBrowser.tsx
+│   │   │   ├── SQLEditor.tsx
+│   │   │   ├── StorageBrowser.tsx
+│   │   │   ├── UserManager.tsx
+│   │   │   ├── LogViewer.tsx
+│   │   │   └── Layout.tsx
 │   │   ├── pages/
-│   │   │   ├── Dashboard.tsx           # Overview + metrics
-│   │   │   ├── Tables.tsx              # Table browser page
-│   │   │   ├── SQL.tsx                 # SQL editor page
-│   │   │   ├── Auth.tsx                # Users management
-│   │   │   ├── Storage.tsx             # Storage management
-│   │   │   ├── Logs.tsx                # API logs page
-│   │   │   └── Settings.tsx            # Project settings
-│   │   │
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── Tables.tsx
+│   │   │   ├── SQL.tsx
+│   │   │   ├── Auth.tsx
+│   │   │   ├── Storage.tsx
+│   │   │   ├── Logs.tsx
+│   │   │   └── Settings.tsx
 │   │   ├── hooks/
-│   │   │   ├── useAuth.ts              # Authentication hook
-│   │   │   ├── useTables.ts            # Table data hook
-│   │   │   └── useRealtime.ts          # WebSocket hook
-│   │   │
+│   │   │   ├── useAuth.ts
+│   │   │   ├── useTables.ts
+│   │   │   └── useRealtime.ts
 │   │   ├── lib/
-│   │   │   ├── api.ts                  # Axios client
-│   │   │   └── utils.ts                # Helper functions
-│   │   │
-│   │   ├── App.tsx                     # Router + theme
-│   │   └── main.tsx                    # Entry point
-│   │
+│   │   │   ├── api.ts
+│   │   │   └── utils.ts
+│   │   ├── App.tsx
+│   │   └── main.tsx
 │   ├── package.json
 │   └── vite.config.ts
 │
-├── docker-compose.yml                   # Complete stack
-├── docker-compose.prod.yml              # Production setup
-├── .env.example                         # Environment template
-├── schema.sql                           # Initial database schema
-├── openapi.yaml                         # API documentation
-└── README.md                            # This file
+├── docker-compose.yml
+├── docker-compose.prod.yml
+├── .env.example
+├── schema.sql
+├── openapi.yaml
+└── README.md
 ```
 
 ---
@@ -352,10 +380,9 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 
 DOCKER DEPLOYMENT
 
-Development Environment:
+docker-compose.yml:
 
 ```yaml
-# docker-compose.yml
 version: '3.8'
 
 services:
@@ -440,14 +467,11 @@ networks:
     driver: bridge
 ```
 
-Production Deployment:
+Production Commands:
 
 ```bash
 # Build and start production stack
 docker-compose -f docker-compose.prod.yml up -d
-
-# With SSL/TLS (using nginx as reverse proxy)
-docker-compose -f docker-compose.ssl.yml up -d
 
 # Scale backend instances
 docker-compose up -d --scale backend=3
@@ -457,42 +481,51 @@ docker exec errorbase-postgres pg_dump -U postgres errorbase > backup.sql
 
 # Restore database
 cat backup.sql | docker exec -i errorbase-postgres psql -U postgres errorbase
+
+# View logs
+docker-compose logs -f backend
+
+# Restart a specific service
+docker-compose restart backend
 ```
 
 ---
 
 API ENDPOINTS
 
-🗄️ Auto-Generated REST API
-
-Method Endpoint Description Auth
-GET /api/rest/v1/{table} List records with filters Optional
-GET /api/rest/v1/{table}/{id} Get single record Optional
-POST /api/rest/v1/{table} Insert record Optional
-PATCH /api/rest/v1/{table} Update record(s) Optional
-DELETE /api/rest/v1/{table} Delete record(s) Optional
-GET /api/rest/v1/rpc/{function} Call stored procedure Optional
-
-Query Parameters:
+Auto-Generated REST API
 
 ```
-GET /api/rest/v1/users?select=id,email,name&order=created_at.desc&limit=10&offset=20
-
-# Filters
-?column=eq.value      # Equal to
-?column=ne.value      # Not equal to
-?column=gt.value      # Greater than
-?column=lt.value      # Less than
-?column=gte.value     # Greater than or equal
-?column=lte.value     # Less than or equal
-?column=like.*value*  # Contains pattern
-?column=ilike.*value* # Case-insensitive contains
-?column=in.1,2,3      # In array
-?column=is.null       # Is NULL
-?column=is.not.null   # Is NOT NULL
+GET    /api/rest/v1/{table}              List records with filters
+GET    /api/rest/v1/{table}/{id}         Get single record
+POST   /api/rest/v1/{table}              Insert record
+PATCH  /api/rest/v1/{table}              Update record(s)
+DELETE /api/rest/v1/{table}              Delete record(s)
+GET    /api/rest/v1/rpc/{function}       Call stored procedure
 ```
 
-Examples:
+Query Parameters
+
+```
+select=col1,col2                         Select specific fields
+order=column.desc                        Sort order
+limit=100                                Limit results
+offset=0                                 Pagination offset
+
+Filters:
+column=eq.value                          Equal to
+column=ne.value                          Not equal to
+column=gt.value                          Greater than
+column=lt.value                          Less than
+column=gte.value                         Greater than or equal
+column=lte.value                         Less than or equal
+column=like.*value*                      Contains pattern
+column=ilike.*value*                     Case-insensitive contains
+column=in.1,2,3                          In array
+column=is.null                           Is NULL
+```
+
+cURL Examples
 
 ```bash
 # Get all users
@@ -524,28 +557,25 @@ curl -X PATCH http://localhost:3000/api/rest/v1/products?id=eq.1 \
 curl -X DELETE "http://localhost:3000/api/rest/v1/products?id=eq.1"
 ```
 
-🔐 Authentication API
+Authentication API
 
-Method Endpoint Description
-POST /auth/v1/signup Register new user
-POST /auth/v1/signin Login (returns JWT cookie)
-GET /auth/v1/user Get current user profile
-POST /auth/v1/refresh Refresh JWT token
-POST /auth/v1/logout Logout user
-POST /auth/v1/reset-password Request password reset
-POST /auth/v1/update-password Update password with token
+```
+POST   /auth/v1/signup                    Register new user
+POST   /auth/v1/signin                    Login (returns JWT cookie)
+GET    /auth/v1/user                      Get current user profile
+POST   /auth/v1/refresh                   Refresh JWT token
+POST   /auth/v1/logout                    Logout user
+POST   /auth/v1/reset-password            Request password reset
+POST   /auth/v1/update-password           Update password with token
+```
 
-Examples:
+Auth cURL Examples
 
 ```bash
 # Signup
 curl -X POST http://localhost:3000/auth/v1/signup \
   -H "Content-Type: application/json" \
-  -d '{
-    "email": "user@example.com",
-    "password": "SecurePass123!",
-    "metadata": {"name": "John Doe"}
-  }'
+  -d '{"email":"user@example.com","password":"SecurePass123!"}'
 
 # Signin
 curl -X POST http://localhost:3000/auth/v1/signin \
@@ -563,19 +593,20 @@ curl -X POST http://localhost:3000/auth/v1/refresh -b cookies.txt
 curl -X POST http://localhost:3000/auth/v1/logout -b cookies.txt
 ```
 
-📁 Storage API
+Storage API
 
-Method Endpoint Description
-POST /storage/v1/bucket Create new bucket
-GET /storage/v1/bucket List all buckets
-DELETE /storage/v1/bucket/{name} Delete empty bucket
-GET /storage/v1/bucket/{name}/list List objects in bucket
-PUT /storage/v1/bucket/{name}/upload Upload file
-GET /storage/v1/bucket/{name}/download/{path} Download file
-DELETE /storage/v1/bucket/{name}/delete/{path} Delete file
-POST /storage/v1/bucket/{name}/move Move/copy file
+```
+POST   /storage/v1/bucket                 Create new bucket
+GET    /storage/v1/bucket                 List all buckets
+DELETE /storage/v1/bucket/{name}          Delete empty bucket
+GET    /storage/v1/bucket/{name}/list     List objects in bucket
+PUT    /storage/v1/bucket/{name}/upload   Upload file
+GET    /storage/v1/bucket/{name}/download/{path}  Download file
+DELETE /storage/v1/bucket/{name}/delete/{path}    Delete file
+POST   /storage/v1/bucket/{name}/move     Move/copy file
+```
 
-Examples:
+Storage cURL Examples
 
 ```bash
 # Create bucket
@@ -598,26 +629,26 @@ curl http://localhost:3000/storage/v1/bucket/avatars/download/users/123/avatar.j
 curl -X DELETE "http://localhost:3000/storage/v1/bucket/avatars/delete/users/123/avatar.jpg"
 ```
 
-⚡ Realtime WebSocket
+Realtime WebSocket
 
 ```javascript
 // Connect to WebSocket
 const ws = new WebSocket('ws://localhost:3000/realtime/v1/websocket');
 
 // Authentication (send JWT after connect)
-ws.on('open', () => {
+ws.onopen = () => {
   ws.send(JSON.stringify({
     type: 'auth',
     token: 'your-jwt-token'
   }));
-});
+};
 
 // Subscribe to table changes
 ws.send(JSON.stringify({
   type: 'subscribe',
   channel: 'users_changes',
   table: 'users',
-  event: '*'  // INSERT, UPDATE, DELETE, or *
+  event: '*'
 }));
 
 // Presence channel (track online users)
@@ -632,17 +663,13 @@ ws.send(JSON.stringify({
   type: 'broadcast',
   channel: 'chat_room',
   event: 'message',
-  payload: { text: 'Hello everyone!', user: 'John' }
+  payload: { text: 'Hello everyone!' }
 }));
 
 // Listen for messages
 ws.onmessage = (event) => {
   const data = JSON.parse(event.data);
   console.log('Received:', data);
-  
-  if (data.type === 'insert') {
-    console.log('New record:', data.record);
-  }
 };
 
 // Unsubscribe
@@ -656,99 +683,70 @@ ws.send(JSON.stringify({
 
 DASHBOARD GUIDE
 
-Pages Overview:
+Pages Overview
 
-Page Route Functionality
-Overview / API keys, project URL, system metrics, recent activity
-Table Browser /tables Browse any table, CRUD operations, filter/sort/paginate
-SQL Editor /sql Run custom SQL with syntax highlighting, save queries, export results
-Auth Users /auth View/manage users, reset passwords, assign roles
-Storage /storage Browse buckets, upload/download files, manage folders
-API Logs /logs View request/response logs, filter by status/endpoint
-Settings /settings Configure CORS, API keys, rate limits, theme
+· / - Overview with API keys, project URL, system metrics
+· /tables - Table browser with CRUD operations, filter, sort, paginate
+· /sql - SQL editor with syntax highlighting, save queries, export results
+· /auth - View/manage users, reset passwords, assign roles
+· /storage - Browse buckets, upload/download files, manage folders
+· /logs - View request/response logs, filter by status/endpoint
+· /settings - Configure CORS, API keys, rate limits, theme
 
-Dashboard Features:
+Dashboard Features
 
-```javascript
-// Table Browser - CRUD Operations
-- View any table with pagination
-- Click "Add Record" to insert
-- Double-click cell to edit
-- Click "Delete" row to remove
-- Filter columns with search
-- Sort by any column
-- Export to CSV/JSON
-
-// SQL Editor
-- Monaco editor with syntax highlighting
-- Run SELECT, INSERT, UPDATE, DELETE
-- Save frequently used queries
-- Export query results
-- View query execution time
-
-// Storage Browser
-- Drag & drop file upload
-- Create/delete folders
-- Preview images
-- Generate signed URLs
-- Set file as public/private
-
-// User Management
-- View all registered users
-- Reset user password
-- Enable/disable accounts
-- Assign admin role
-- View login history
-```
+· Table Browser: View any table with pagination, click "Add Record" to insert, double-click cell to edit, click "Delete" row to remove, filter columns with search, sort by any column, export to CSV/JSON
+· SQL Editor: Monaco editor with syntax highlighting, run SELECT/INSERT/UPDATE/DELETE, save frequently used queries, export query results, view query execution time
+· Storage Browser: Drag & drop file upload, create/delete folders, preview images, generate signed URLs, set file as public/private
+· User Management: View all registered users, reset user password, enable/disable accounts, assign admin role, view login history
 
 ---
 
 SECURITY FEATURES
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                      SECURITY ARCHITECTURE                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  Layer 1: Network Security                                      │
-│  ├── HTTPS enforcement (production)                             │
-│  ├── CORS with strict origin validation                         │
-│  └── Docker network isolation                                   │
-│                                                                  │
-│  Layer 2: Authentication                                        │
-│  ├── bcrypt password hashing (10+ rounds)                       │
-│  ├── JWT stored in HTTP-only cookies                            │
-│  ├── Refresh token rotation                                     │
-│  └── Session invalidation on logout                             │
-│                                                                  │
-│  Layer 3: Request Security                                      │
-│  ├── Rate limiting (100 req/min per IP)                         │
-│  ├── Auth rate limiting (5 attempts/min)                        │
-│  ├── Helmet.js security headers                                 │
-│  └── Request size limits                                        │
-│                                                                  │
-│  Layer 4: Database Security                                     │
-│  ├── Parameterized queries (no SQL injection)                   │
-│  ├── Row Level Security (RLS) middleware                        │
-│  ├── Connection pooling with limits                             │
-│  └── Query timeout protection                                   │
-│                                                                  │
-│  Layer 5: File Security                                         │
-│  ├── MIME type validation                                       │
-│  ├── File size limits (50MB default)                            │
-│  ├── Filename sanitization                                      │
-│  └── Virus scanning (optional integration)                      │
-│                                                                  │
-│  Layer 6: Logging & Monitoring                                  │
-│  ├── Winston request/response logging                           │
-│  ├── Failed login tracking                                      │
-│  ├── API usage metrics                                          │
-│  └── Audit trails for admin actions                             │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
+Security Architecture Layers
 
-Row Level Security (RLS) Implementation:
+Layer 1 - Network Security
+
+· HTTPS enforcement (production)
+· CORS with strict origin validation
+· Docker network isolation
+
+Layer 2 - Authentication
+
+· bcrypt password hashing (10+ rounds)
+· JWT stored in HTTP-only cookies
+· Refresh token rotation
+· Session invalidation on logout
+
+Layer 3 - Request Security
+
+· Rate limiting (100 req/min per IP)
+· Auth rate limiting (5 attempts/min)
+· Helmet.js security headers
+· Request size limits
+
+Layer 4 - Database Security
+
+· Parameterized queries (no SQL injection)
+· Row Level Security (RLS) middleware
+· Connection pooling with limits
+· Query timeout protection
+
+Layer 5 - File Security
+
+· MIME type validation
+· File size limits (50MB default)
+· Filename sanitization
+
+Layer 6 - Logging & Monitoring
+
+· Winston request/response logging
+· Failed login tracking
+· API usage metrics
+· Audit trails for admin actions
+
+Row Level Security Implementation
 
 ```sql
 -- RLS policies in PostgreSQL
@@ -757,16 +755,10 @@ CREATE POLICY user_own_data ON users
 
 CREATE POLICY admin_all_access ON users
     USING (current_setting('app.user_role') = 'admin');
-
-CREATE POLICY team_members ON team_members
-    USING (team_id IN (
-        SELECT team_id FROM team_members 
-        WHERE user_id = current_setting('app.current_user_id')::uuid
-    ));
 ```
 
 ```typescript
-// RLS Middleware (server/src/middleware/rls.middleware.ts)
+// RLS Middleware
 export const rlsMiddleware = async (req, res, next) => {
   if (req.user) {
     await db.query(`
@@ -781,8 +773,6 @@ export const rlsMiddleware = async (req, res, next) => {
 ---
 
 ENVIRONMENT VARIABLES
-
-Complete Reference:
 
 ```env
 # ==================== SERVER CONFIGURATION ====================
@@ -815,9 +805,9 @@ CORS_CREDENTIALS=true
 CORS_MAX_AGE=86400
 
 # ==================== FILE STORAGE ====================
-STORAGE_TYPE=local  # local or s3
+STORAGE_TYPE=local
 STORAGE_PATH=./uploads
-MAX_FILE_SIZE=52428800  # 50MB in bytes
+MAX_FILE_SIZE=52428800
 ALLOWED_MIME_TYPES=image/jpeg,image/png,image/gif,application/pdf,video/mp4
 
 # S3 Compatible (optional)
@@ -837,13 +827,13 @@ AUTH_RATE_LIMIT_MAX=5
 WS_PATH=/realtime/v1
 WS_HEARTBEAT_INTERVAL=30000
 WS_MAX_CONNECTIONS=10000
-WS_MESSAGE_SIZE_LIMIT=1048576  # 1MB
+WS_MESSAGE_SIZE_LIMIT=1048576
 
 # ==================== LOGGING ====================
 LOG_LEVEL=info
 LOG_DIR=./logs
 LOG_MAX_FILES=30
-LOG_MAX_SIZE=10485760  # 10MB
+LOG_MAX_SIZE=10485760
 
 # ==================== EMAIL (for password reset) ====================
 SMTP_HOST=smtp.gmail.com
@@ -855,7 +845,7 @@ EMAIL_RESET_URL=http://localhost:5173/reset-password
 
 # ==================== ADMIN DASHBOARD ====================
 ADMIN_API_KEY=change-this-admin-key
-DASHBOARD_SESSION_TIMEOUT=3600000  # 1 hour
+DASHBOARD_SESSION_TIMEOUT=3600000
 
 # ==================== SECURITY ====================
 HELMET_ENABLED=true
@@ -874,55 +864,59 @@ ENABLE_SQL_EDITOR=true
 
 COMMANDS LIST
 
-Docker Commands:
+Docker Commands
 
-Command Description
-docker-compose up -d Start all services in background
-docker-compose down Stop all services
-docker-compose down -v Stop and delete volumes (reset DB)
-docker-compose logs -f View live logs
-docker-compose logs backend View only backend logs
-docker-compose restart Restart all services
-docker-compose ps Check service status
-docker-compose exec backend bash Open shell in backend container
-docker-compose exec postgres psql -U postgres Open PostgreSQL shell
+```bash
+docker-compose up -d                      Start all services in background
+docker-compose down                       Stop all services
+docker-compose down -v                    Stop and delete volumes (reset DB)
+docker-compose logs -f                    View live logs
+docker-compose logs backend               View only backend logs
+docker-compose restart                    Restart all services
+docker-compose ps                         Check service status
+docker-compose exec backend bash          Open shell in backend container
+docker-compose exec postgres psql -U postgres  Open PostgreSQL shell
+```
 
-NPM Commands (Backend):
+NPM Commands (Backend)
 
-Command Description
-npm run dev Start development with hot reload
-npm run build Build TypeScript to JavaScript
-npm start Start production server
-npm run migrate Run database migrations
-npm run migrate:reset Reset and rerun migrations
-npm run test Run tests
-npm run lint Run ESLint
-npm run format Format code with Prettier
+```bash
+npm run dev                               Start development with hot reload
+npm run build                             Build TypeScript to JavaScript
+npm start                                 Start production server
+npm run migrate                           Run database migrations
+npm run migrate:reset                     Reset and rerun migrations
+npm run test                              Run tests
+npm run lint                              Run ESLint
+npm run format                            Format code with Prettier
+```
 
-NPM Commands (Dashboard):
+NPM Commands (Dashboard)
 
-Command Description
-npm run dev Start Vite dev server
-npm run build Build for production
-npm run preview Preview production build
-npm run lint Run ESLint
-npm run type-check Run TypeScript type checking
+```bash
+npm run dev                               Start Vite dev server
+npm run build                             Build for production
+npm run preview                           Preview production build
+npm run lint                              Run ESLint
+npm run type-check                        Run TypeScript type checking
+```
 
-Database Commands:
+Database Commands
 
-Command Description
-psql -U postgres -d errorbase Connect to database
-\dt List all tables
-\d table_name Describe table schema
-SELECT * FROM users; Query users
-pg_dump -U postgres errorbase > backup.sql Backup database
-psql -U postgres errorbase < backup.sql Restore database
+```bash
+psql -U postgres -d errorbase             Connect to database
+\dt                                       List all tables
+\d table_name                             Describe table schema
+SELECT * FROM users;                      Query users
+pg_dump -U postgres errorbase > backup.sql    Backup database
+psql -U postgres errorbase < backup.sql       Restore database
+```
 
 ---
 
 STEP BY STEP TUTORIAL
 
-Complete Setup Guide:
+Complete Setup Guide
 
 ```bash
 # Step 1: Clone the repository
@@ -966,19 +960,14 @@ curl "http://localhost:3000/api/rest/v1/todos?select=id,title,completed" -b cook
 
 # Step 10: Open the dashboard
 # Open http://localhost:5173 in your browser
-# You should be automatically logged in from the cookie
 
 # Step 11: Upload a file
 curl -X PUT http://localhost:3000/storage/v1/bucket/files/upload \
   -F "file=@test.jpg" \
   -b cookies.txt
-
-# Step 12: Test realtime (open two terminals)
-# Terminal 1 - Listen for changes
-# Terminal 2 - Insert data and watch Terminal 1 receive it
 ```
 
-Example Application Flow:
+Example Application Flow
 
 ```javascript
 // Frontend React example
@@ -1115,9 +1104,9 @@ SOFTWARE.
   <p><i>Made with ❤️ in Kashmir by @ERROR0101risback</i></p>
 
   <p>
-    <a href="https://t.me/ERROR0101risback"><img src="https://img.shields.io/badge/Telegram-@ERROR0101risback-26A5E4?style=flat-square&logo=telegram"></a>
-    <a href="https://instagram.com/fahad0101r"><img src="https://img.shields.io/badge/Instagram-@fahad0101r-E4405F?style=flat-square&logo=instagram"></a>
-    <a href="https://github.com/ERROR0101r"><img src="https://img.shields.io/badge/GitHub-ERROR0101r-181717?style=flat-square&logo=github"></a>
+    <a href="https://t.me/ERROR0101risback">Telegram</a> •
+    <a href="https://instagram.com/fahad0101r">Instagram</a> •
+    <a href="https://github.com/ERROR0101r">GitHub</a>
   </p>
 
   <p>© 2026 ErrorBase | Version 1.0.0 Stable</p>
