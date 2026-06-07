@@ -1,4 +1,4 @@
-#ERRORBASE
+# ERRORBASE
 
 The Self-Hosted Firebase Alternative | Complete Backend Platform
 
